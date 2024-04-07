@@ -86,6 +86,46 @@ nav.nav-produtos ul.nav li ul.nav li {
   padding: 10px 25px;
 }
 
+.banner-promocionais-statico {
+  margin-top: 30px;
+}
+.banner-promocionais-statico .banner-promocionais-statico-12x {
+  background: #ff0f9a;
+  background-image: url("../images/parcele-em-12x.jpg");
+}
+.banner-promocionais-statico .banner-promocionais-statico-todo-br {
+  background: #b343c3;
+  background-image: url("../images/entrega-para-todo-brasil.jpg");
+}
+.banner-promocionais-statico .banner-promocionais-statico-todo-br,
+.banner-promocionais-statico .banner-promocionais-statico-12x {
+  background-size: cover;
+  height: 105px;
+  padding: 20px 60px;
+  color: #fff;
+}
+.banner-promocionais-statico .banner-promocionais-statico-todo-br svg, .banner-promocionais-statico .banner-promocionais-statico-todo-br p,
+.banner-promocionais-statico .banner-promocionais-statico-12x svg,
+.banner-promocionais-statico .banner-promocionais-statico-12x p {
+  margin: 0;
+  padding: 0;
+}
+.banner-promocionais-statico .banner-promocionais-statico-todo-br svg,
+.banner-promocionais-statico .banner-promocionais-statico-12x svg {
+  font-size: 55px;
+}
+.banner-promocionais-statico .banner-promocionais-statico-todo-br p,
+.banner-promocionais-statico .banner-promocionais-statico-12x p {
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 110%;
+  margin-left: 20px;
+}
+.banner-promocionais-statico .banner-promocionais-statico-todo-br p strong,
+.banner-promocionais-statico .banner-promocionais-statico-12x p strong {
+  font-weight: bold;
+}
+
 /*!
  * Bootstrap v4.6.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
