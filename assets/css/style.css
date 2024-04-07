@@ -141,6 +141,32 @@ nav.nav-produtos ul.nav li ul.nav li {
   font-size: 16px;
 }
 
+.produtos-compra figure {
+  margin: 0;
+}
+.produtos-compra .produtos-conteudo h1 {
+  margin: 0;
+  font-size: 32px;
+}
+.produtos-compra .produtos-conteudo p {
+  font-size: 16px;
+}
+.produtos-compra .produtos-preco .produtos-stars svg {
+  fill: #ffc107;
+}
+.produtos-compra .produtos-preco strong {
+  font-size: 40px;
+}
+.produtos-compra .produtos-preco form {
+  font-weight: 100;
+}
+.produtos-compra .produtos-preco form label {
+  margin: 0;
+}
+.produtos-compra .produtos-preco .produtos-star svg, .produtos-compra .produtos-preco strong span, .produtos-compra .produtos-preco form {
+  font-size: 16px;
+}
+
 footer {
   background: #343a40;
   padding: 25px 0;
@@ -163,6 +189,28 @@ footer ul li.ellipsis {
   white-space: nowrap;
 }
 
+@media (max-width: 375px) {
+  .banner-promocionais-statico .banner-promocionais-statico-todo-br p,
+  .banner-promocionais-statico .banner-promocionais-statico-12x p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  header form {
+    margin: 20px 0;
+  }
+  #banner-promocionais {
+    display: none;
+  }
+  .produtos-container img {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  header ul li {
+    margin: 7px 0;
+  }
+}
 /*!
  * Bootstrap v4.6.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -9729,6 +9777,15 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 
+.breadcrumb {
+  background: initial;
+  margin: 40px 0;
+  padding: 0;
+}
+.breadcrumb a {
+  color: #ff0f9a;
+}
+
 body {
   color: #343a40;
 }
@@ -9743,6 +9800,7 @@ h1 {
 
 h1, h2, h3, h4, h5 {
   font-weight: bold;
+  margin: 10px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
